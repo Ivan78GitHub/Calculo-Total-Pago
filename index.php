@@ -90,8 +90,6 @@ for($contador=0;$contador<count($arrperiodosdias);$contador++){
  		$vhi=(int)$hi;
  		if($hf==0) { $hf=2400;}
  		$vhf=(int)$hf;
- 		
-
  		$vhie=(int)$hie;
  		$vhfe=(int)$hfe;
  		$totalhorase=($vhfe-$vhie)/100;
@@ -108,10 +106,7 @@ for($contador=0;$contador<count($arrperiodosdias);$contador++){
 	echo "The amount to pay ". $nombre_horarios[0] ." is: ".$total."\n";
 }
 }
-
 fclose($fp);  
-
-
 ?>
 
 		/*
